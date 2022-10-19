@@ -43,10 +43,20 @@ public class Main {
                     playersTag.get(i).printFullInfo();
                 }
             }
-            else if (option.toLowerCase().equals("find team"))
+            else if (option.toLowerCase().equals("find name"))
             {
                 symbol = key.nextLine();
                 Functions.findPlayerName(symbol, playersTag);
+            }
+            else if (option.toLowerCase().equals("find team"))
+            {
+                symbol = key.nextLine();
+                Functions.findPlayerTeam(symbol, playersTag);
+            }
+            else if (option.toLowerCase().equals("find nation"))
+            {
+                symbol = key.nextLine();
+                Functions.findPlayerNation(symbol, playersTag);
             }
             else if(option.toLowerCase().equals("remove player"))
             {
@@ -56,17 +66,12 @@ public class Main {
             }
             else if(option.toLowerCase().equals("read"))
             {
-                Functions.readFile();
+                playersTag = Functions.readFile();
             }
             else if(option.toLowerCase().equals("save"))
             {
                 Functions.saveToFile(playersTag);
             }
-//            else if (option.toLowerCase().equals("find nation"))
-//            {
-//                symbol = key.nextLine();
-//                players.findPlayerNation(symbol);
-//            }
 //            else if (option.toLowerCase().equals("find name"))
 //            {
 //                symbol = key.nextLine();

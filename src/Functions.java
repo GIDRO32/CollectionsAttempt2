@@ -39,6 +39,28 @@ public class Functions
             }
         }
     }
+    public static void findPlayerTeam(String searchKey, ArrayList<Player> players)
+    {
+        for (int i = 0; i < players.size(); i++)
+        {
+            if (players.get(i).teamName.toLowerCase().contains(searchKey.toLowerCase()))
+            {
+                System.out.println("Player " + (i + 1) +":");
+                players.get(i).printFullInfo();
+            }
+        }
+    }
+    public static void findPlayerNation(String searchKey, ArrayList<Player> players)
+    {
+        for (int i = 0; i < players.size(); i++)
+        {
+            if (players.get(i).teamName.toLowerCase().contains(searchKey.toLowerCase()))
+            {
+                System.out.println("Player " + (i + 1) +":");
+                players.get(i).printFullInfo();
+            }
+        }
+    }
     public static ArrayList<Player> readFile() throws FileNotFoundException {
         ArrayList<Player> players = new ArrayList<Player>();
         ArrayList<String> reader = new ArrayList<String>();
