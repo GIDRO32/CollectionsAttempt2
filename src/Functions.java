@@ -54,7 +54,7 @@ public class Functions
     {
         for (int i = 0; i < players.size(); i++)
         {
-            if (players.get(i).teamName.toLowerCase().contains(searchKey.toLowerCase()))
+            if (players.get(i).nation.toLowerCase().contains(searchKey.toLowerCase()))
             {
                 System.out.println("Player " + (i + 1) +":");
                 players.get(i).printFullInfo();

@@ -18,7 +18,7 @@ public class Main {
 
             if (option.toLowerCase().equals("exit")) {
                 break;
-            } else if (option.toLowerCase().equals("add player")) {
+            } else if (option.toLowerCase().equals("add player")) {//Note: Everytime you press space you get to type next property
                 System.out.println("Type a player data(name, surname, team-name, Player's nation, number of goals.)\nNote: if Team name or country has more than one word, divide them with a hyphen.\nFor example: Let-the-bodies-hit-the-floor");
                 String playerIn = key.nextLine();
                 Player pl = new Player();
