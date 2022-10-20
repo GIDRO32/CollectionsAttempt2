@@ -5,12 +5,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
-        ArrayList<Player> playersTag = new ArrayList<Player>();
-        Scanner key = new Scanner(System.in);
+        ArrayList<Player> playersTag = new ArrayList<Player>();//Stores Players
+        Scanner key = new Scanner(System.in);//Variable to type
         boolean isTyping = true;
-        String symbol = null;
-        String option = null;
-        int find = 1;
+        String symbol = null;// <-- For searching
+        String option = null;// <-- For choosing the function
         System.out.println("Welcome to the Football Players collection app.");
         while (isTyping) {
             System.out.println("\nType a word to choose an option.");
@@ -72,12 +71,6 @@ public class Main {
             {
                 Functions.saveToFile(playersTag);
             }
-//            else if (option.toLowerCase().equals("find name"))
-//            {
-//                symbol = key.nextLine();
-//                System.out.println(symbol);
-//                players.findPlayerName(symbol);
-//            }
         }
     }
 

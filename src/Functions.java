@@ -1,10 +1,10 @@
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
-
+//Class for repeating "Player" class
 public class Functions
 {
-    public static void sortPlayers(ArrayList<Player> players)
+    public static void sortPlayers(ArrayList<Player> players)// <-- Sorting players by number of goals(from smallest to highest)
     {
         boolean isSorted = false;
         int outIterations = 0;
@@ -28,7 +28,7 @@ public class Functions
             outIterations++;
         }
     }
-    public static void findPlayerName(String searchKey, ArrayList<Player> players)
+    public static void findPlayerName(String searchKey, ArrayList<Player> players)//Search players by their own names
     {
         for (int i = 0; i < players.size(); i++)
         {
@@ -39,7 +39,7 @@ public class Functions
             }
         }
     }
-    public static void findPlayerTeam(String searchKey, ArrayList<Player> players)
+    public static void findPlayerTeam(String searchKey, ArrayList<Player> players)//Search players by teams they are playing in
     {
         for (int i = 0; i < players.size(); i++)
         {
@@ -50,7 +50,7 @@ public class Functions
             }
         }
     }
-    public static void findPlayerNation(String searchKey, ArrayList<Player> players)
+    public static void findPlayerNation(String searchKey, ArrayList<Player> players)//Search players by countries, where they are from
     {
         for (int i = 0; i < players.size(); i++)
         {
@@ -61,7 +61,7 @@ public class Functions
             }
         }
     }
-    public static ArrayList<Player> readFile() throws FileNotFoundException {
+    public static ArrayList<Player> readFile() throws FileNotFoundException {//To read collection items from the file and then print
         ArrayList<Player> players = new ArrayList<Player>();
         ArrayList<String> reader = new ArrayList<String>();
 
@@ -97,7 +97,8 @@ public class Functions
         myFileReader.close();
         return players;
     }
-    public static void saveToFile(ArrayList<Player> players) throws FileNotFoundException {
+    public static void saveToFile(ArrayList<Player> players) throws FileNotFoundException //To save items to the collection
+    {
         FileOutputStream myFileW = new FileOutputStream("myCollection.txt");
         PrintWriter myFileWriter = new PrintWriter(myFileW);
         for (int i = 0; i < players.size(); i++) {

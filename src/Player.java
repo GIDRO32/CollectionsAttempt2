@@ -1,5 +1,5 @@
 
-
+// Class for storing the information of one player
 public class Player
 {
     public String name;
