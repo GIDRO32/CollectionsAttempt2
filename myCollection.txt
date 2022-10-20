@@ -1,0 +1,20 @@
+Player 1:
+Full name: Ousman Dembélé
+Team Name: Barcelona
+Player nation: France
+Goals: 173
+Player 2:
+Full name: Karim Benzema
+Team Name: Real-Madrid
+Player nation: France
+Goals: 281
+Player 3:
+Full name: Robert Lewandowski
+Team Name: Barcelona
+Player nation: Poland
+Goals: 600
+Player 4:
+Full name: Lionel Messi
+Team Name: Paris-Saint-Germain
+Player nation: Argentina
+Goals: 780
