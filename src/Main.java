@@ -44,16 +44,19 @@ public class Main {
             }
             else if (option.toLowerCase().equals("find name"))
             {
+                System.out.println("Type a player's name(without surname):");
                 symbol = key.nextLine();
                 Functions.findPlayerName(symbol, playersTag);
             }
             else if (option.toLowerCase().equals("find team"))
             {
+                System.out.println("Type the name of the team:");
                 symbol = key.nextLine();
                 Functions.findPlayerTeam(symbol, playersTag);
             }
             else if (option.toLowerCase().equals("find nation"))
             {
+                System.out.println("Type the name of the country:");
                 symbol = key.nextLine();
                 Functions.findPlayerNation(symbol, playersTag);
             }
