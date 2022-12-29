@@ -18,3 +18,8 @@ Full name: Lionel Messi
 Team Name: Paris-Saint-Germain
 Player nation: Argentina
 Goals: 780
+Player 5:
+Full name: Zlatan Ibrahimović
+Team Name: Milan
+Player nation: Sweden
+Goals: 570

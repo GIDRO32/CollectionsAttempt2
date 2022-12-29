@@ -13,7 +13,7 @@ public class Player
     }
     public void stringToProperties(String playerTag)
     {
-        String[] playerArr = playerTag.trim().split(" ");
+        String[] playerArr = playerTag.trim().split(";");
         this.name = playerArr[0];
         this.surname = playerArr[1];
         this.teamName = playerArr[2];

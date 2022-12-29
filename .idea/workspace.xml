@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf77033f-e2b0-46c3-97a8-be2bebe8118a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CollectionsAttempt2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myCollection" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Functions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
+    <list default="true" id="cf77033f-e2b0-46c3-97a8-be2bebe8118a" name="Changes" comment="Code Fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myCollection.txt" beforeDir="false" afterPath="$PROJECT_DIR$/myCollection.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +37,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "full.screen.before.presentation.mode": "false",
-    "last_opened_file_path": "C:/Users/pambo/IdeaProjects/GroupFile",
+    "last_opened_file_path": "C:/Users/pambo/IdeaProjects/IfElseSwitch",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
@@ -65,8 +62,68 @@
       <workItem from="1666074265818" duration="2783000" />
       <workItem from="1666077206907" duration="4091000" />
       <workItem from="1666088253703" duration="3403000" />
-      <workItem from="1666188178212" duration="9782000" />
+      <workItem from="1666188178212" duration="9963000" />
+      <workItem from="1666202395626" duration="3422000" />
+      <workItem from="1666244213069" duration="1327000" />
+      <workItem from="1666248531992" duration="140000" />
+      <workItem from="1666279297793" duration="3000" />
+      <workItem from="1666692223756" duration="953000" />
+      <workItem from="1668352747237" duration="1485000" />
+      <workItem from="1671870468845" duration="812000" />
+      <workItem from="1672071245549" duration="892000" />
+      <workItem from="1672137869176" duration="12896000" />
+      <workItem from="1672308331118" duration="1425000" />
     </task>
+    <task id="LOCAL-00001" summary="Change Code">
+      <created>1666198374544</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666198374544</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Change Code">
+      <created>1666202434613</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666202434613</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Final Version">
+      <created>1666203592924</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666203592924</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Code Fix">
+      <created>1666244238942</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666244238942</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Code Fix">
+      <created>1666245515065</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666245515065</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Code Fix">
+      <created>1666248640134</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666248640134</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Code Fix">
+      <created>1666248662274</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666248662274</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,5 +139,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Change Code" />
+    <MESSAGE value="Final Version" />
+    <MESSAGE value="Code Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code Fix" />
   </component>
 </project>
